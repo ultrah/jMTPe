@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="jmtp">
+</Property><Property Name="Projektmappendatei" Value="C:\development\repos\dai\trunk\jMTPe\c++\jmtp.sln">
+</Property><Property Name="Benutzeroptionendatei" Value="C:\development\repos\dai\trunk\jMTPe\c++\jmtp.suo">
+</Property><Property Name="Date" Value="Donnerstag, 18. April 2013">
+</Property><Property Name="Time" Value="15:21">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="jmtp.sln" Description="Datei wurde erfolgreich als &quot;C:\development\repos\dai\trunk\jMTPe\c++\jmtp.sln.old&quot; gesichert">
+</Event><Event ErrorLevel="0" Project="" Source="jmtp.suo" Description="Datei wurde erfolgreich als &quot;C:\development\repos\dai\trunk\jMTPe\c++\jmtp.suo.old&quot; gesichert">
+</Event><Event ErrorLevel="0" Project="jmtp" Source="jmtp.vcproj" Description="Converting project file 'C:\development\repos\dai\trunk\jMTPe\c++\jmtp.vcproj'.">
+</Event><Event ErrorLevel="1" Project="jmtp" Source="jmtp.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="jmtp" Source="jmtp.vcproj" Description="MSB8012: $(TargetPath) ('C:\development\repos\dai\trunk\jMTPe\c++\..\java\jmtp.dll') does not match the Linker's OutputFile property value '..\java\jmtp.dll' ('C:\development\repos\dai\trunk\jMTPe\java\jmtp.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="jmtp" Source="jmtp.vcproj" Description="Done converting to new project file 'C:\development\repos\dai\trunk\jMTPe\c++\jmtp.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="jmtp" Source="jmtp.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="jmtp.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="jmtp.sln" Description="Converted">
+</Event></UpgradeLog>

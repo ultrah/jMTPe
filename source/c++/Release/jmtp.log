@@ -1,0 +1,33 @@
+﻿Der Buildvorgang wurde am 11.07.2013 11:51:41 gestartet.
+     1>Projekt "C:\development\repos\dai\trunk\jMTPe\c++\jmtp.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         "Release\jmtp.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\PortableDeviceToHost.cpp
+         PortableDeviceToHost.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\development\repos\dai\trunk\jMTPe\c++\Release\jmtp.dll" /NOLOGO PortableDeviceGuids.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\jmtp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\development\repos\dai\trunk\jMTPe\c++\Release\jmtp.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\development\repos\dai\trunk\jMTPe\c++\Release\jmtp.lib" /MACHINE:X86 /DLL Release\Com.obj
+         Release\jmtp.obj
+         Release\OleDate.obj
+         Release\PortableDevice.obj
+         Release\PortableDeviceContent.obj
+         Release\PortableDeviceKeyCollection.obj
+         Release\PortableDeviceManager.obj
+         Release\PortableDeviceProperties.obj
+         Release\PortableDevicePropVariantCollection.obj
+         Release\PortableDeviceToHost.obj
+         Release\PortableDeviceValues.obj
+            Bibliothek "C:\development\repos\dai\trunk\jMTPe\c++\Release\jmtp.lib" und Objekt "C:\development\repos\dai\trunk\jMTPe\c++\Release\jmtp.exp" werden erstellt.
+         Code wird generiert.
+         Codegenerierung ist abgeschlossen.
+         jmtp.vcxproj -> C:\development\repos\dai\trunk\jMTPe\c++\Release\jmtp.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\development\repos\dai\trunk\jMTPe\c++\Release\jmtp.dll;#2" /manifest Release\jmtp.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Die Datei "Release\jmtp.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Release\jmtp.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\development\repos\dai\trunk\jMTPe\c++\jmtp.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:02.03

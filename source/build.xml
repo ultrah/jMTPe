@@ -1,0 +1,16 @@
+<project name="gdata-src" default="build" basedir=".">
+	<target name="build" depends="">
+		<!-- Build java classes and create jar -->
+		<javac sourcepath="" srcdir="java/src" destdir="java/bin"
+			includeAntRuntime="false"/>
+		<jar destfile="dist/jmtp.jar" basedir="java/bin"/>
+		
+		<!-- Build the visual studio project with the Microsft Build Tool -->
+		<exec executable="msbuild">
+			<arg value="/property:Configuration=Release"/>
+			<arg value="c++/jmtp.sln"/>
+		</exec>
+		
+		<copy file="c++/Release/jmtp.dll" todir="dist"/>
+	</target>
+</project>
